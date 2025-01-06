@@ -1,7 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { ROUTE_CONSTANTS } from "./config/constants";
 import SharedLayout from "../../SharedLayout";
-
 const AppRouter = () => {
   const router = createBrowserRouter(
     [
